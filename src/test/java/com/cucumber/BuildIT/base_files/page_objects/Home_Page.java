@@ -17,6 +17,11 @@ import java.util.TimeZone;
  */
 public class Home_Page extends ParentPage {
 
+    /*
+    * On home page we can see weather forecast report fot five days.
+    * So Home_Page class has five objects of class Daily_Forecast
+    *
+    * */
     private static Daily_Forcast objFirst_Day ;
     private static Daily_Forcast objSecond_Day ;
     private static Daily_Forcast objThird_Day ;
@@ -31,9 +36,13 @@ public class Home_Page extends ParentPage {
     By HeadLine = By.xpath("//input[@id='city']/../..");
     By City = By.xpath("//input[@id='city']");
 
-    public Home_Page(WebDriver driver){
-        super(driver);
 
+    /* During constructor we will pass driver instance to parent class and
+     * we will initiates Daily_Forecast class objects */
+
+    public Home_Page(WebDriver driver){
+
+        super(driver);
 
         objFirst_Day = new Daily_Forcast(driver,"one");
         objSecond_Day = new Daily_Forcast(driver,"two");
@@ -58,6 +67,9 @@ public class Home_Page extends ParentPage {
        // verify_Element_Text(City, strCity);
     }
 
+    /*
+    *This function verify that home page displays current date and next four dates.
+     */
     public void Verify_Dates(){
 
 
@@ -92,8 +104,9 @@ public class Home_Page extends ParentPage {
         softAssert.assertAll();
     }
 
-
-
+    /*
+    This function verify that home page displays correct week days for all five dates.
+     */
     public void Verify_Days(){
 
 
@@ -128,6 +141,10 @@ public class Home_Page extends ParentPage {
         softAssert.assertAll();
     }
 
+    /*
+    This function will return object for requested day row.
+     */
+
     public Daily_Forcast Get_Day_Report_Row_Object(String strDayNumber){
 
         switch (strDayNumber.toLowerCase().trim()){
@@ -135,22 +152,17 @@ public class Home_Page extends ParentPage {
             case "one" :
                 return objFirst_Day;
 
-
             case "two" :
                 return objSecond_Day;
-
 
             case "three" :
                 return objThird_Day;
 
-
             case "four" :
                 return objFourth_Day;
 
-
             case "five" :
                 return objFifth_Day;
-
 
             default:
                 return objFirst_Day;

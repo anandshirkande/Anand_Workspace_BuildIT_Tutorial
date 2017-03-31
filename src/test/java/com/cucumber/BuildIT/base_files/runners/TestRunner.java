@@ -21,7 +21,7 @@ import java.nio.file.Paths;
         features = "src/test/resources/features/",
         glue = "com.cucumber.BuildIT.base_files.glue",
         plugin = {"com.cucumber.listener.ExtentCucumberFormatter:output/report.html"},
-        tags = "@runSmoke, @runRegression"
+        tags = "@runSmoke,@runRegression"
 )
 public class TestRunner extends AbstractTestNGCucumberTests{
 

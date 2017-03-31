@@ -13,7 +13,7 @@ Feature: To verify different functionalities /features in report
       |Glasgow|
 
 
-  @runSmoke @runRegression
+  @runSmoke
   Scenario Outline:Verify user can see three hourly report if user clicks on day
 
     Given I have entered the city as "<City>" to know weather forecast report
