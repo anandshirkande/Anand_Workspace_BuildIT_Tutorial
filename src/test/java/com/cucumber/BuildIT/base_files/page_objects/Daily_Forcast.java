@@ -50,8 +50,6 @@ public class Daily_Forcast extends ParentPage{
 
         super(driver);
 
-        System.out.println("In Dali forecast constructor");
-
         strDayNumber = DayNumber.toLowerCase();
         Properties configProp = new Properties();
         try {
@@ -61,7 +59,6 @@ public class Daily_Forcast extends ParentPage{
             configProp.load(in);
              strDay = configProp.getProperty("row_"+strDayNumber+"_day");
              strDate = configProp.getProperty("row_"+strDayNumber+"_date");
-            System.out.println("Strdate vaue is "+strDate);
              strDescription = configProp.getProperty("row_"+strDayNumber+"_description");
              strMaxTemp = configProp.getProperty("row_"+strDayNumber+"_max_temp");
              strMinTemp = configProp.getProperty("row_"+strDayNumber+"_min_temp");

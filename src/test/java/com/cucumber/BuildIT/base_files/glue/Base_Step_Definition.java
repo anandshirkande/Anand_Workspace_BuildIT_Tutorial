@@ -14,8 +14,6 @@ public class Base_Step_Definition extends ParentScenario {
 
     @Before
     public void BeforeScenario(){
-
-        System.out.println("In Before Scenario");
         Before_Setup();
     }
 
