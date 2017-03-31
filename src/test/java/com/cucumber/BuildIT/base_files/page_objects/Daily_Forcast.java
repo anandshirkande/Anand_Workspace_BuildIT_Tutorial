@@ -35,6 +35,12 @@ public class Daily_Forcast extends ParentPage{
     By MaxPrssure  ;
 
 
+    /*
+    * We have 24 hours in one day. There will be separate report for every three hours.
+    * So we will have eight child reports for every day report.
+    * Hence we have added eight objects of Hourly_Forecast.class
+     */
+
     Hourly_Forecast obj_Hourly_Forecast_One ;
     Hourly_Forecast obj_Hourly_Forecast_Two ;
     Hourly_Forecast obj_Hourly_Forecast_Three ;
@@ -52,9 +58,8 @@ public class Daily_Forcast extends ParentPage{
 
         strDayNumber = DayNumber.toLowerCase();
         Properties configProp = new Properties();
+        //Fetch the unique data set attribute values from property file and update instance variables.
         try {
-         //   InputStream in = new FileInputStream("/Users/shirkandea/Anand_Workspace/src/test/Resources/data_set.properties");
-
             InputStream in = this.getClass().getClassLoader().getResourceAsStream("data_set.properties");
             configProp.load(in);
              strDay = configProp.getProperty("row_"+strDayNumber+"_day");
@@ -91,7 +96,7 @@ public class Daily_Forcast extends ParentPage{
         String strChildSeven = "seven";
         String strChildEight = "eight";
 
-
+        //instantiate objects of Hourly_Forecast class
          obj_Hourly_Forecast_One = new Hourly_Forecast(driver,strDayNumber, strChildOne);
          obj_Hourly_Forecast_Two = new Hourly_Forecast(driver,strDayNumber,strChildTwo);
          obj_Hourly_Forecast_Three = new Hourly_Forecast(driver,strDayNumber,strChildThree);
@@ -126,18 +131,14 @@ public class Daily_Forcast extends ParentPage{
             case "one" :
                 return obj_Hourly_Forecast_One;
 
-
             case "two" :
                 return obj_Hourly_Forecast_Two;
-
 
             case "three" :
                 return obj_Hourly_Forecast_Three;
 
-
             case "four" :
                 return obj_Hourly_Forecast_Four;
-
 
             case "five" :
                 return obj_Hourly_Forecast_Five;
@@ -158,6 +159,7 @@ public class Daily_Forcast extends ParentPage{
         }
     }
 
+    //this function verify all web elements included in this class.
     public void Verify_All_Elements_Displayed(String strDayNumber){
 
         verify_Element_displayed(Byday, "Verify day element for day row "+strDayNumber);

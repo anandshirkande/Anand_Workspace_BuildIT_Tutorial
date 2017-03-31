@@ -38,7 +38,7 @@ public class Home_Page extends ParentPage {
 
 
     /* During constructor we will pass driver instance to parent class and
-     * we will initiates Daily_Forecast class objects */
+     * we will instantiate Daily_Forecast class objects */
 
     public Home_Page(WebDriver driver){
 
@@ -64,7 +64,6 @@ public class Home_Page extends ParentPage {
         verify_Element_displayed(City);
         String strActualCity = get_Attribute_Value(City, "value");
         Assert.assertEquals(strActualCity, strCity, "City name does not matched . Expected : "+strCity+" and actual is "+strActualCity);
-       // verify_Element_Text(City, strCity);
     }
 
     /*

@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbd020ef-737e-4af9-9c86-c2181d6b267b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/cucumber/BuildIT/base_files/page_objects/Home_Page.class" afterPath="$PROJECT_DIR$/target/test-classes/com/cucumber/BuildIT/base_files/page_objects/Home_Page.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/cucumber/BuildIT/base_files/runners/TestRunner.class" afterPath="$PROJECT_DIR$/target/test-classes/com/cucumber/BuildIT/base_files/runners/TestRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Anand_Workspace.iml" afterPath="$PROJECT_DIR$/Anand_Workspace.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/page_objects/Daily_Forcast.java" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/page_objects/Daily_Forcast.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/page_objects/Home_Page.java" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/page_objects/Home_Page.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/runners/TestRunner.java" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/runners/TestRunner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Automation_Reports/Automation_Report.html" afterPath="$PROJECT_DIR$/target/Automation_Reports/Automation_Report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/features/Verify_Weather_Forecast_Report.feature" afterPath="$PROJECT_DIR$/target/test-classes/features/Verify_Weather_Forecast_Report.feature" />
     </list>
     <ignored path="BuildIT_Anand_Tutorial.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,48 +28,18 @@
       <file leaf-file-name="Hourly_Forecast.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/page_objects/Hourly_Forecast.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
+            <state relative-caret-position="-470">
               <caret line="39" column="9" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Verify_Default_Values.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Verify_Default_Values.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParentScenario.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/framework/ParentScenario.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/runners/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="105">
+              <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,9 +50,21 @@
       <file leaf-file-name="Home_Page.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/page_objects/Home_Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2010">
-              <caret line="144" column="59" selection-start-line="144" selection-start-column="59" selection-end-line="144" selection-end-column="59" />
+            <state relative-caret-position="45">
+              <caret line="65" column="136" selection-start-line="65" selection-start-column="136" selection-end-line="65" selection-end-column="136" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Base_Step_Definition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/glue/Base_Step_Definition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+              <folding>
+                <element signature="e#430#431#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,18 +72,30 @@
       <file leaf-file-name="Daily_Forcast.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/page_objects/Daily_Forcast.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="60" column="75" selection-start-line="60" selection-start-column="75" selection-end-line="60" selection-end-column="75" />
+            <state relative-caret-position="7">
+              <caret line="161" column="67" selection-start-line="161" selection-start-column="67" selection-end-line="161" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Verify_Weather_Forecast_Report.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Verify_Weather_Forecast_Report.feature">
+      <file leaf-file-name="Verify_Weather_Forecast_Report.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/glue/Verify_Weather_Forecast_Report.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="11" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="11" />
+            <state relative-caret-position="150">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Verify_Default_Values.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/glue/Verify_Default_Values.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -125,7 +111,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParentPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ParentScenario.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/framework/ParentScenario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParentPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/framework/ParentPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -183,12 +179,12 @@
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/framework/Utils.java" />
         <option value="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Verify_Default_Values.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/page_objects/Daily_Forcast.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/glue/Base_Step_Definition.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/page_objects/Home_Page.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Verify_Weather_Forecast_Report.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/runners/TestRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/page_objects/Home_Page.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/page_objects/Daily_Forcast.java" />
       </list>
     </option>
   </component>
@@ -1021,7 +1017,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.4929972" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31553" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31553" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.49047226" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1127,8 +1123,8 @@
         <state relative-caret-position="1245">
           <caret line="83" column="112" selection-start-line="83" selection-start-column="112" selection-end-line="83" selection-end-column="112" />
           <folding>
-            <element signature="e#4636#4637#0" expanded="false" />
-            <element signature="e#4665#4666#0" expanded="false" />
+            <element signature="e#4897#4898#0" expanded="false" />
+            <element signature="e#4926#4927#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1196,8 +1192,8 @@
         <state relative-caret-position="1260">
           <caret line="84" column="112" selection-start-line="84" selection-start-column="112" selection-end-line="84" selection-end-column="112" />
           <folding>
-            <element signature="e#4636#4637#0" expanded="false" />
-            <element signature="e#4665#4666#0" expanded="false" />
+            <element signature="e#4897#4898#0" expanded="false" />
+            <element signature="e#4926#4927#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1323,82 +1319,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/glue/Base_Step_Definition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="e#430#431#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/glue/Verify_Default_Values.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/glue/Verify_Weather_Forecast_Report.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/framework/ParentScenario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/framework/ParentPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/framework/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/page_objects/Hourly_Forecast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="39" column="9" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/page_objects/Daily_Forcast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="60" column="75" selection-start-line="60" selection-start-column="75" selection-end-line="60" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/page_objects/Home_Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2010">
-          <caret line="144" column="59" selection-start-line="144" selection-start-column="59" selection-end-line="144" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/Verify_Default_Values.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1423,13 +1343,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/runners/TestRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/glue/Verify_Weather_Forecast_Report.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/glue/Verify_Default_Values.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/page_objects/Home_Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="65" column="136" selection-start-line="65" selection-start-column="136" selection-end-line="65" selection-end-column="136" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/page_objects/Daily_Forcast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="161" column="67" selection-start-line="161" selection-start-column="67" selection-end-line="161" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/page_objects/Hourly_Forecast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-470">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/runners/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/glue/Base_Step_Definition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="e#430#431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/framework/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/framework/ParentScenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/framework/ParentPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
