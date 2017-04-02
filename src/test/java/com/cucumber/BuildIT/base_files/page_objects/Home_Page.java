@@ -1,8 +1,12 @@
+
 package com.cucumber.BuildIT.base_files.page_objects;
 
 import com.cucumber.BuildIT.base_files.framework.ParentPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
@@ -33,8 +37,14 @@ public class Home_Page extends ParentPage {
     String strTitle = "5 Weather Forecast";
     String strHeadline_Static_Part = "Five Day Weather Forecast for";
 
-    By HeadLine = By.xpath("//input[@id='city']/../..");
-    By City = By.xpath("//input[@id='city']");
+   // By HeadLine = By.xpath("//input[@id='city']/../..");
+    //By City = By.xpath("//input[@id='city']");
+
+    @FindBy(xpath="//input[@id='city']/../..")
+    WebElement HeadLine;
+
+    @FindBy(xpath="//input[@id='city']")
+    WebElement City ;
 
 
     /* During constructor we will pass driver instance to parent class and
@@ -49,6 +59,8 @@ public class Home_Page extends ParentPage {
         objThird_Day = new Daily_Forcast(driver,"three");
         objFourth_Day = new Daily_Forcast(driver,"four");
         objFifth_Day = new Daily_Forcast(driver,"five");
+
+        PageFactory.initElements(driver, this);
     }
 
     public void Verify_Home_Page(){
